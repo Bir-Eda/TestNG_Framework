@@ -1,61 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-26T12:47:44 EDT" name="HubSpot sanity full" finished-at="2020-09-26T12:49:14 EDT" duration-ms="90110">
+  <suite started-at="2020-09-26T17:46:47 EDT" name="Default Suite" finished-at="2020-09-26T17:47:18 EDT" duration-ms="31154">
     <groups>
     </groups>
-    <test started-at="2020-09-26T12:47:44 EDT" name="HubSpot Sanity" finished-at="2020-09-26T12:49:14 EDT" duration-ms="90110">
-      <class name="com.hubspot.tests.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hubspot.tests.LoginPageTest@5965d37]" started-at="2020-09-26T12:47:44 EDT" name="setUp" finished-at="2020-09-26T12:47:57 EDT" duration-ms="13631" status="PASS">
+    <test started-at="2020-09-26T17:46:47 EDT" name="SiliconeLabTestNGFramework" finished-at="2020-09-26T17:47:18 EDT" duration-ms="31154">
+      <class name="com.hubspot.tests.LoginPFTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hubspot.tests.LoginPFTest@7c9d8e2]" started-at="2020-09-26T17:46:47 EDT" name="setUp" finished-at="2020-09-26T17:47:07 EDT" duration-ms="20173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getTitle()[pri:1, instance:com.hubspot.tests.LoginPageTest@5965d37]" started-at="2020-09-26T12:47:58 EDT" name="getTitle" description="get title from the hubspot login page" finished-at="2020-09-26T12:48:00 EDT" duration-ms="2433" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.hubspot.tests.LoginPFTest@7c9d8e2]" started-at="2020-09-26T17:47:08 EDT" name="loginTest" finished-at="2020-09-26T17:47:17 EDT" duration-ms="8698" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hubspot.tests.LoginPageTest@5965d37]" started-at="2020-09-26T12:48:00 EDT" name="tearDown" finished-at="2020-09-26T12:48:03 EDT" duration-ms="3043" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hubspot.tests.LoginPageTest@5965d37]" started-at="2020-09-26T12:48:03 EDT" name="setUp" finished-at="2020-09-26T12:48:16 EDT" duration-ms="13168" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginTest1()[pri:2, instance:com.hubspot.tests.LoginPageTest@5965d37]" started-at="2020-09-26T12:48:16 EDT" name="loginTest1" description="login test using correct username and password" finished-at="2020-09-26T12:48:26 EDT" duration-ms="10129" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hubspot.tests.LoginPageTest@5965d37]" started-at="2020-09-26T12:48:26 EDT" name="tearDown" finished-at="2020-09-26T12:48:28 EDT" duration-ms="1682" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hubspot.tests.LoginPFTest@7c9d8e2]" started-at="2020-09-26T17:47:17 EDT" name="tearDown" finished-at="2020-09-26T17:47:18 EDT" duration-ms="1397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hubspot.tests.LoginPageTest@5965d37]" started-at="2020-09-26T12:48:28 EDT" name="setUp" finished-at="2020-09-26T12:48:41 EDT" duration-ms="13122" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginTest2()[pri:3, instance:com.hubspot.tests.LoginPageTest@5965d37]" started-at="2020-09-26T12:48:41 EDT" name="loginTest2" description="login test using incorrect username and password" finished-at="2020-09-26T12:48:51 EDT" duration-ms="9711" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hubspot.tests.LoginPageTest@5965d37]" started-at="2020-09-26T12:48:51 EDT" name="tearDown" finished-at="2020-09-26T12:48:52 EDT" duration-ms="908" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hubspot.tests.LoginPageTest@5965d37]" started-at="2020-09-26T12:48:52 EDT" name="setUp" finished-at="2020-09-26T12:49:03 EDT" duration-ms="11326" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginTest3()[pri:4, instance:com.hubspot.tests.LoginPageTest@5965d37]" started-at="2020-09-26T12:49:03 EDT" name="loginTest3" description="login test using correct username and password" finished-at="2020-09-26T12:49:13 EDT" duration-ms="9246" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest3 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hubspot.tests.LoginPageTest@5965d37]" started-at="2020-09-26T12:49:13 EDT" name="tearDown" finished-at="2020-09-26T12:49:14 EDT" duration-ms="1034" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.hubspot.tests.LoginPageTest -->
-    </test> <!-- HubSpot Sanity -->
-  </suite> <!-- HubSpot sanity full -->
+      </class> <!-- com.hubspot.tests.LoginPFTest -->
+    </test> <!-- SiliconeLabTestNGFramework -->
+  </suite> <!-- Default Suite -->
 </testng-results>
